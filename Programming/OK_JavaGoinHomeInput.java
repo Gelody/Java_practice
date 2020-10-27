@@ -7,11 +7,11 @@ import org.opentutorials.iot.Security;
 
 public class OK_JavaGoinHomeInput {
 
+	// parameter, 매개변수 
 	public static void main(String[] args) {
 
-		// id
-		String id = JOptionPane.showInputDialog("Enter a ID");
-		String bright = JOptionPane.showInputDialog("Enter a Bright level");
+		String id = args[0];
+		String bright = args[1];
 
 		// Elevator call
 		Elevator myElevator = new Elevator(id);
@@ -31,6 +31,7 @@ public class OK_JavaGoinHomeInput {
 		DimmingLights moodLamp = new DimmingLights(id + "/ moodLamp");
 		moodLamp.setBright(Double.parseDouble(bright));
 		moodLamp.on();
+	
 	}
 
 }
