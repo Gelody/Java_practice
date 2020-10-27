@@ -6,7 +6,8 @@ import org.opentutorials.iot.Security;
 public class OK_JavaGoinHome {
 
 	public static void main(String[] args) {
-
+		
+		// id
 		String id = "JAVA APT 507";
 		
 		// Elevator call
