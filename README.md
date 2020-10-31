@@ -1,2 +1,2 @@
 # Java_tutorial
-Java Studying
+Java Studying - Based on 생활코딩
